@@ -39,6 +39,7 @@ const Index = () => {
             aria-label="Add todo"
             icon={<FaPlus />}
             onClick={handleAddTodo}
+            colorScheme="green"
           />
         </HStack>
         <VStack
